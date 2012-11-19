@@ -12,6 +12,7 @@ $grayMediumLight: #eaeaea;
 
 /* universal */
 
+
 html {
   overflow-y: scroll;
 }
@@ -130,7 +131,10 @@ footer ul li {
 
 aside {
   section {
+    border-radius: 10px;
+    height: 750px;
     padding: 10px 0;
+    background-color:$grayLighter;
     border-top: 1px solid $grayLighter;
     &:first-child {
       border: 0;
@@ -140,20 +144,26 @@ aside {
       display: block;
       margin-bottom: 3px;
       line-height: 1;
+      
     }
     h1 {
       font-size: 1.4em;
       text-align: left;
       letter-spacing: -1px;
       margin-bottom: 3px;
-      margin-top: 0px;
+      margin-top: 3px;
+      margin-left: 3px;
+    }
+    p {
+    margin-left: 3px;
     }
   }
 }
 
 .gravatar {
   
-  margin-right: 10px;
+  margin-left: 3px;
+  margin-top: 3px;
 }
 
 /* forms */
@@ -197,3 +207,14 @@ input {
     }
   }
 }
+
+/* main page */
+
+main {
+  background-color:$grayLighter;
+  border-radius: 10px;
+  height: 750px;
+  padding: 10px 0;
+  
+    }
+    
