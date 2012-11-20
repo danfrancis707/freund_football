@@ -3,18 +3,12 @@
     <div class="container">
       <%= link_to "freund football", root_path, id: "logo" %>
       <nav>
-        <ul class="nav pull-right">
-          
-          
+        <ul class="nav pull-right">          
           <% if signed_in? %>
             <li><%= link_to "Home", current_user %></li>
-            <li><%= link_to "Players", users_path %></li>
-            
+            <li><%= link_to "Players", users_path %></li>            
             <li><%= link_to "Settings", edit_user_path(current_user) %></li>
-            <li><%= link_to "Sign out", signout_path, method: "delete" %></li>
-        </ul>
-            
-          
+            <li><%= link_to "Sign out", signout_path, method: "delete" %></li>             
           <% end %>
         </ul>
       </nav>

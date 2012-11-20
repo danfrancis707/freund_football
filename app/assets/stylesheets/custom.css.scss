@@ -144,6 +144,7 @@ aside {
   background-color:$grayLighter;
   border-radius: 10px;
   padding: 10px 0;  
+
   margin-bottom: 20px;
   section {
   
@@ -191,6 +192,11 @@ input {
   height: auto !important;
 }
 
+select{
+  height: auto !important;
+  padding: 5px;
+  margin-bottom: 0;
+}
 #error_explanation {
   color: #f00;
   ul {
@@ -225,10 +231,27 @@ input {
 main {
   background-color:$grayLighter;
   border-radius: 10px;
+
   padding: 10px 0;  
   margin-bottom: 20px;
   section {
 
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+}
+
+/* main page */
+
+trade {
+  background-color:$grayLighter;
+  overflow: auto;
+  border-radius: 10px;
+  height: 280px;
+  padding: 10px 0;  
+  margin-bottom: 20px;
+  section {
+    height: 900 px;
     margin-right: 3px;
     margin-left: 3px;
   }
