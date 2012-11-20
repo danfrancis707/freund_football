@@ -209,12 +209,13 @@ input {
 .users {
   list-style: none;
   margin: 0;
+
   li {
     overflow: auto;
     padding: 10px 0;
-    border-top: 1px solid $grayLighter;
+    border-top: 5px solid black;
     &:last-child {
-      border-bottom: 1px solid $grayLighter;
+      border-bottom: 5px solid black;
     }
   }
 }
