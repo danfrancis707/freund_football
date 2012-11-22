@@ -1,0 +1,18 @@
+<%= form_for(@team) do |f| %>
+  
+  <div>
+    <%= f.text_field :p1, placeholder: "Passing 1" %>
+  </div>
+  <div>
+    <%= f.text_field :p2, placeholder: "Passing 1" %>
+  </div>
+  <div>
+    <%= f.text_field :p3, placeholder: "Passing 1" %>
+  </div>
+  <div>
+    <%= f.text_field :p4, placeholder: "Passing 1" %>
+  </div>
+  <%= f.submit "Post", class: "btn btn-mini btn-primary" %>
+<% end %>
+
+
